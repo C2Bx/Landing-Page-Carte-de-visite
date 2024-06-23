@@ -1,0 +1,6 @@
+[build]
+  publish = "dist"
+  command = "gridsome build"
+
+[context.production.environment]
+  NODE_OPTIONS = "--openssl-legacy-provider"
